@@ -116,6 +116,9 @@
 	.title-box h2{
 		font-size: 38px;
 	}
+	.about-main-info{
+		text-align: center;
+	}
 	.about-main-info h2{
 		font-size: 24px;
 	}
@@ -196,3 +199,4 @@
 	}
 	
 }
+ 

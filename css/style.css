@@ -428,13 +428,6 @@ SCROLL TO TOP BUTTON
 	width: 100%;
 }
 
-.about-m ul#banner li canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-
 .about-img{
 	padding: 30px 0px;
 }
@@ -805,17 +798,17 @@ SCROLL TO TOP BUTTON
 .our-team .pic{
     margin: 8px;
     position: relative;
-    border: 3px solid #00cb86;
+    border: 3px solid #f02222;
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .pic{
-    border-color: #12557f;
+    border-color: #f02222;
 }
 .our-team .pic:after{
     content: "";
     width: 100%;
     height: 0;
-    background: #00cb86;
+    background: #f02222;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -904,16 +897,7 @@ SCROLL TO TOP BUTTON
 .blog-img{
 	overflow: hidden;
 }
-.blog-img img{
-	transition: all 0.9s ease 0s;
-}
-.blog-inner:hover .blog-img img{
-	-moz-transform: scale(1.5) rotate(-10deg);
-	-webkit-transform: scale(1.5) rotate(-10deg);
-	-ms-transform: scale(1.5) rotate(-10deg);
-	-o-transform: scale(1.5) rotate(-10deg);
-	transform: scale(1.5) rotate(-10deg);
-}
+
 .blog-inner a{
 	border-radius: 2px;
 	transition: .2s;
@@ -927,7 +911,8 @@ SCROLL TO TOP BUTTON
 }
 
 .blog-inner a.new-btn-d.br-2{
-	border: 2px solid #12557f;
+	border: 2px solid #f02222;
+	color: #f02222;
 }
 
 .blog-inner a.new-btn-d::before{
@@ -936,6 +921,10 @@ SCROLL TO TOP BUTTON
 
 
 .blog-inner a:hover{
+	color: #ffffff;
+	background-color: #f02222;
+}
+.blog-inner a.new-btn-d.br-2:hover{
 	color: #ffffff;
 }
 
@@ -961,118 +950,8 @@ SCROLL TO TOP BUTTON
 
 
 /*------------------------------------------------------------------
-    Contact
+    Footer
 -------------------------------------------------------------------*/
-
-.contact-box{
-	padding: 70px 0px;
-}
-
-.left-contact{
-	margin-top: 60px;
-}
-.left-contact h2{
-	font-size: 38px;
-	font-weight: 700;
-	padding-bottom: 30px;
-	text-align: center;
-}
-.cont-line{
-	overflow: hidden;
-	margin-bottom: 30px;
-	width: 33.33%;
-	float: left;
-}
-.icon-b{
-	width: 80px;
-	height: 80px;
-	text-align: center;
-	line-height: 80px;
-	font-size: 40px;
-	border: 2px dotted #12557f;
-	margin-right: 10px;
-	color: #00cb86;
-	border-radius: 50%;
-}
-
-.dit-right h4{
-	font-size: 18px;
-	color: #333333;
-	font-weight: 600;
-	padding-bottom: 0;
-}
-.dit-right{
-	padding-right: 14px;
-}
-.dit-right p{
-	font-size: 16px;
-	margin: 0px;
-}
-.dit-right a{
-	font-size: 16px;
-	color: #333333
-}
-.dit-right a:hover{
-	color: #00cb86;
-}
-
-.contact-block{}
-
-.contact-block .form-group .form-control{
-	background: #00cb86;
-	height: 45px;
-	font-size: 16px;
-	border: 0;
-	color: #ffffff;
-	padding: 6px 15px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	-ms-border-radius: 4px;
-	border-radius: 4px;
-}
-
-.contact-block .form-group textarea.form-control{
-	height: 150px;
-	padding-top: 15px;
-}
-
-.submit-button .btn-common{
-	background-color: #00cb86;
-	height: 45px;
-	line-height: 45px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #fff;
-	padding: 0 15px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 0px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.submit-button .btn-common:hover{
-	background-color: #528780;
-}
-
-.custom-select{
-	height: 45px;
-	font-size: 16px;
-}
-select.form-control:not([size]):not([multiple]){
-	height: calc(45px + 2px);
-}
-
-.help-block ul li{
-	color: red;
-}
-
 .footer-box{
 	background: #292f35;
 	padding: 20px 0;
@@ -1088,105 +967,5 @@ select.form-control:not([size]):not([multiple]){
 	color: #00cb86;
 }
 .footer-box .footer-company-name a:hover{
-	color: #000000;
+	color: #f02222;
 }
-
-
-
-
-/*------------------------------------------------------------------
-    Subscribe
--------------------------------------------------------------------*/
-
-.subscribe-box{
-	padding: 70px 0px;
-	background: url(../images/footer-bg.jpg) no-repeat center;
-	background-size: cover;
-	position: relative;
-}
-
-.subscribe-box::before{
-	content: "";
-	background: rgba(0,0,0,0.8);
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	position: absolute;
-}
-
-.subscribe-inner{
-	max-width: 500px;
-	width: 100%;
-	margin: 0 auto;
-}
-.subscribe-inner h2{	
-	font-size: 28px;
-	font-weight: 600;
-	color: #ffffff;
-}
-
-.subscribe-inner p{
-	color: #cccccc;
-}
-
-.subscribe-inner .form-group .form-control-1{
-	width: 100%;
-	padding: 12px 15px;
-	border-radius: 0px;
-	border: none;
-}
-
-.subscribe-inner .form-group button{	
-	letter-spacing: 1px;
-	border-radius: 2px;
-	transition: .2s;
-	letter-spacing: 1px;
-	padding: 10px 18px;
-	background: #ffffff;
-	color: #12557f;
-	display: inline-block;
-	line-height: 24px;
-	border: none;
-	cursor: pointer;
-}
-
-.subscribe-inner .form-group button.new-btn-d.br-2 {
-    border: 2px solid #12557f;
-}
-.subscribe-inner .form-group button.new-btn-d::before{
-	background: rgba(18,85,127,0.2);
-}
-
-.subscribe-inner .form-group button:hover {
-	color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
