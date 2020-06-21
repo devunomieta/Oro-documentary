@@ -562,8 +562,8 @@ SCROLL TO TOP BUTTON
 .serviceBox:hover:before{ border-top-color: #f02222 ; }
 .serviceBox .service-icon{
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 220px;
+    height: 150px;
     line-height: 80px;
     font-size: 30px;
     color: #f02222;
@@ -583,7 +583,6 @@ SCROLL TO TOP BUTTON
     top: 0;
     left: 0;
     z-index: -1;
-    transform: rotate(45deg);
     transition: all 0.3s ease 0s;
 }
 .serviceBox:hover .service-icon:before{

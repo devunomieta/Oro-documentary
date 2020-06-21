@@ -1,9 +1,6 @@
 /* only small desktops */
 /* tablets */
 @media (min-width: 992px) and (max-width: 1190px) {
-	.countdown{
-		height: 285px;
-	}
 	.top-header .navbar .navbar-collapse ul li a{
 		font-size: 14px;
 	}
@@ -34,20 +31,8 @@
 		position: relative;
 		width: 100%;
 	}
-	.countdown #timer div#days, .countdown #timer div#hours, .countdown #timer div#minutes, .countdown #timer div#seconds{
-		position: inherit;
-		margin: 12px 0px;
-	}
 	.lbox-details::before{
 		background: rgba(0,0,0,0.9);
-	}
-	.countdown{
-		height: 188px;
-		border-radius: 0px;
-	}
-	.countdown #timer div{
-		width: 23%;
-		font-size: 24px;
 	}
 	figure.effect-service h2{
 		font-size: 12px;
@@ -158,20 +143,8 @@
 	.about-m{
 		margin-top: 30px;
 	}
-	.countdown #timer div#days, .countdown #timer div#hours, .countdown #timer div#minutes, .countdown #timer div#seconds{
-		position: inherit;
-		margin: 12px 0px;
-	}
 	.lbox-details::before{
 		background: rgba(0,0,0,0.9);
-	}
-	.countdown{
-		height: 188px;
-		border-radius: 0px;
-	}
-	.countdown #timer div{
-		width: 23%;
-		font-size: 24px;
 	}
 	.about-m{
 		margin-bottom: 30px;
@@ -193,9 +166,6 @@
 	}
 	.blog-inner a{
 		padding: 10px 6px;
-	}
-	.cont-line{
-		
 	}
 	
 }
