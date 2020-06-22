@@ -108,7 +108,7 @@
 		font-size: 24px;
 	}
 	.about-img{
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 	.main-timeline-box .separline::before{
 		left: 15px !important;
